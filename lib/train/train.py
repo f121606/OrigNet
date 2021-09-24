@@ -1,6 +1,6 @@
 import os
 import sys
-
+sys.path.append(".")
 sys.path.append("../../")
 sys.path.append("../../../")
 
@@ -99,7 +99,7 @@ if __name__ == "__main__":
     cfg.eval_ep = 1
     cfg.train = CN()
     cfg.train.epoch = 30
-    cfg.train.dataset = "SampleTrain"
+    cfg.train.dataset = "NIVTrain"
     cfg.train.batch_size = 10
     cfg.train.num_workers = 4
     cfg.train.batch_sampler = "image_size"
