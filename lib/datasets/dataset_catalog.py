@@ -40,6 +40,14 @@ class DatasetCatalog(object):
             "id": "sample",
             "data_root": "sample/test",
         },
+        "NIVTrain":{
+            "id":"NIVTrain",
+            "data_root":"training",
+        },
+        "NIVTest":{
+            "id":"NIVTest",
+            "data_root":"test",
+        },
     }
 
     @staticmethod

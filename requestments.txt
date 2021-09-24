@@ -1,4 +1,4 @@
-bleck
+black
 easydict
 flake8
 matplotlib
@@ -8,7 +8,7 @@ Pillow
 pylint
 pytorch-lightning
 PyYAML
-tensorboard
+tensorboardX
 torch
 torchvision
 tqdm

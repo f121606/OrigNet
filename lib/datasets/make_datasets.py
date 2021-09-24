@@ -178,7 +178,10 @@ if __name__ == "__main__":
     cfg = CfgNode()
     cfg.train = CfgNode()
     cfg.task = "classify"
-    cfg.train.dataset = "SampleTrain"
+    cfg.img_width=200
+    cfg.img_height=200
+   # cfg.train.dataset = "SampleTrain"
+    cfg.train.dataset = "NIVTrain"
     cfg.train.batch_size = 4
     cfg.train.batch_sampler = ""
     cfg.train.num_workers = 2
